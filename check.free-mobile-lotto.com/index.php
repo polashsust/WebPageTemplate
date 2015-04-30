@@ -23,7 +23,7 @@ if($deviceType=='computer' || $deviceType=='tablet')*/
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Free Loto</title>
+  <title>This is made By Polash, first time github</title>
   <meta name="description" content="Qoqoo Free Loto">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
   <!--[if IE]>
@@ -47,7 +47,7 @@ if($deviceType=='computer' || $deviceType=='tablet')*/
 		<link rel="stylesheet" href="css/styles.css" type="text/css">
 		<link rel="stylesheet" href="css/ew_style.css" />
 		<link rel="stylesheet" href="css/all.css" />
-		
+		<link rel="stylesheet" href="git/all.css" />
 		<script>
 		$().ready(function(){
 			// Global game instance
