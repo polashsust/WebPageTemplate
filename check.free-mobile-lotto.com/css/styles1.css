@@ -1,0 +1,391 @@
+/*
+	Date: August 2013
+	Description: Sample layout for loto.
+	Version: 1.0
+	*/
+/******Reset*****/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+body {
+		line-height: 1;
+}
+	ol, ul {
+		list-style: none;
+	}
+blockquote, q {
+		quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none;
+}
+table {
+		border-collapse: collapse;
+		border-spacing: 0;
+}
+@font-face {
+		font-family: Combo;
+		src: url(../fonts/Combo-Regular.ttf) format("truetype");
+} 
+@font-face {
+		font-family: Go Boom;
+		src: url(../fonts/Go-Boom.ttf) format("truetype");
+} 
+body {
+		background: url('../images/background.jpg') repeat-x ;
+}	
+
+.content-box{
+		width: 945px;
+		height:100;
+		margin: 0px auto;
+		clear: both;
+}
+.nav-bar {
+		width: 100%;
+		height: 35px;
+		background: #f76855;
+		margin-top: 57px;
+		float: left;
+		margin-bottom: 60px;
+}
+.logo {
+		margin-top: -30px;
+		float: left;
+		margin-left: -5px;
+		border: 0px red solid;
+}
+nav {
+		float: left;
+		margin-left: 65px;
+		margin-top: -32px;
+}
+nav li {
+		list-style-type: none;
+		float:left;
+		margin-left: 24px;
+}
+.social_box {
+		float: right;
+}
+.social_box ul {
+		margin-top: 7px;
+    	margin-right: 10px;
+}
+.social_box li {
+		list-style-type: none;
+		float: left;
+		margin-left: 7px;
+}	
+.free_lotto {
+		width: 490px;
+		height: auto;
+		float: left;
+}
+.lotto {
+		width: 339px;
+		height: 387px;
+		background: url('../images/free-lotto.jpg');
+		float: left;
+		margin-left: 96px;
+}
+
+/*This is a box area*/
+.number_plate {
+		width: 430px;
+		height: auto;
+		float: left;
+		border: 0px red solid;
+}
+.number_box {
+		width: 422px;
+		border: 1px #dddddd solid;
+		background: #e0e4e7;
+		overflow: hidden;
+		padding: 16px;
+}
+.number_box li {
+		float: left;
+		list-style-type: none;
+		padding: 0px 0px 7px 7px;
+}
+.number_box li a{
+		width: 34px;
+		height: 34px;
+		display: block;
+		background: #ffffff;
+		text-decoration: none;
+		color: #999999;
+		padding: 10px 8px 8px 10px;
+		font-size: 34px;
+		font-family: Combo;
+		text-align: center;
+}
+
+
+.number_box li a:hover {
+		background: #f76855;
+		color: #ffffff;
+}
+.number_box li a:active {
+		background: #f76855;
+		color: #ffffff;
+}
+
+
+/*End of a box area*/
+
+/*Start of a icon area*/
+.number_icons {
+		float:left;
+		margin-top:10px;
+		display:block;
+		border: 0px red solid;
+		margin-bottom: 20px;
+		width: 100%;
+}
+.number_icons a {
+		padding-left: 19px;
+}
+/*End of a icon area*/
+
+/*Start of a play with*/
+.play_with {
+		width: 450px;
+		height: 45px;
+		background: #f76855;
+		float: left;
+		margin-top: 80px;	
+	
+}
+.play_with_text {
+		color: white;
+		font-size: 25px;
+		font-family:Go Boom;
+		margin-top: 9px;
+		float:left;
+		padding-left:17px;
+		
+}
+.icon {
+		width:149px;
+		height:149px;
+		float:right;
+		margin-top:-54px;
+		margin-right: 11px;
+}
+
+/*end of a play with*/
+
+/* Start Choice area */
+.number_choices {
+		float:left;
+		width: 456px;
+		margin-bottom: 44px;
+	}
+.number_choices .your_choice {
+	    color: #999999;
+		font-size: 25px;
+		font-family: Go Boom;
+		margin-top: 9px;
+		float:left;
+}
+.your_choice {
+	    color: #999999;
+		font-size: 25px;
+		font-family: Go Boom;
+		margin-top: 9px;
+		float:left;
+}
+.number_choices ul{
+	float: right;
+	}
+	
+.number_choices ul li {
+	float:left;
+	list-style:none;
+	padding-left:5px; 
+	
+	}
+	
+.number_choices ul li a{
+	width: 24px;
+	height: 24px;
+	display: block;
+	background: #999999;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 9px 10px 9px 8px;
+	font-size: 25px;
+	font-family: Combo;
+	text-align: center;
+	}
+.number_choices ul li a:hover{
+	background: #f76855;
+}
+
+
+/* End Choice area */
+
+/*This is a footer Section*/
+.footer_bar {
+		width: 100%;
+		height: 35px;
+		background: #f76855;
+		float: left;
+		position: relative;
+		top: 133px;
+}
+.footer_bar p {
+		color: #fff;
+		font-size: 12px;
+		padding: 13px;
+		float: left;
+		font-family: arial;
+}
+.footer_bar .nav_footer {
+		float:right;
+		position: relative;
+		top: -30px;
+		right: 20px;
+}
+.footer_bar .nav_footer li {
+		list-style-type: none;
+		float:left;
+		margin-left: 34px;
+}
+
+
+/*End of a footer Section*/
+
+
+div#information_row {
+    color: #f4785c;
+    font-size: 20px;
+}
+div#information_row > span {
+    display: none;
+}
+
+   div#information_row {
+        font-size: 14px;
+    }
+div.lottery_holder div.grey_bg_rows .ui-btn-up-a{
+    background:transparent;
+    color:#f4785c;
+}
+div.lottery_holder div.grey_bg_rows .ui-btn-mandatory{
+    background:#acacac;
+}
+div.lottery_holder div.grey_bg_rows .ui-btn-optional{
+    background:#bdbdbd;
+}
+
+div.rows {
+    min-width: 456px;
+}
+div#c_lotto {
+    text-align: center;
+}
+	
+
+div.lottery_holder .ui-btn{
+    border:0 !important;
+    margin:4px 1px;
+}
+div.lottery_holder .ui-btn-inner{
+    border:0;
+    font-size: 42px;
+    padding:0;
+    padding-top:12px;
+    width: 74px;
+    height: 62px;
+}
+div.lottery_holder .ui-btn-up-a{
+    background:#ffffff;
+    color:#999999;
+}
+div.lottery_holder .ui-btn.active{
+    background:#f4785c;
+    color:#ffffff;
+}
+
+
+div.grey_bg_rows .ui-btn.ui-btn-inner {
+    border: 0 none;
+    font-size: 42px;
+    height: 62px;
+    padding: 12px 0 0;
+    width: 74px;
+	
+}
+.ui-btn-inner {
+    border-radius: inherit;
+}
+.ui-btn-inner {
+    display: block;
+    font-size: 16px;
+    width: 24px;
+    overflow: hidden;
+    padding: 0.6em 10px;
+    position: relative;
+	height: 22px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+	background: none repeat scroll 0 0 #999999;
+    color: #FFFFFF;	
+
+}
+
+.ui-btn-inner-active
+{
+    display: block;
+    font-size: 16px;
+    width: 24px;
+    overflow: hidden;
+    padding: 0.6em 10px;
+    position: relative;
+	height: 22px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	background: none repeat scroll 0 0 #F76855;
+    color: #FFFFFF;	
+
+}
+
+.ui-btn-inner {
+    border-color: rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+.lotterynumber.ui-link.active
+{
+   background: #f76855;
+		color: #ffffff;
+
+   }	
+
+	

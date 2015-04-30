@@ -1,0 +1,126 @@
+/*This download image*/
+
+p.customfont { 
+    font-family: "My Custom Font", Verdana, Tahoma;
+}
+
+.lottodownload {
+	width: 413px;
+	height: 289px;
+	background: url('../images/download_bereich.png');
+	float: left;
+	margin-left: 9px;	
+}
+.lottodownloadwinners{
+	width: 345px;
+	height: 261px;
+	background: url('../images/winners_big.png');
+	float: left;
+	margin-left: 81px;	
+	margin-top: 39px;
+}
+.lottofaqhelp{
+	width: 469px;
+	height: 305px;
+	background: url('../images/faq_help.png');
+	float: left;
+	margin-left: 54px;	
+	margin-top: 25px;
+}
+.appdown{
+	border: 0px red solid;
+	width: 412px;
+	height: 150px;
+	float:right;
+	margin-top:25px;
+	margin-bottom:80px;
+}
+#helpfaq{
+	border: 0px red solid;
+	width: 412px;
+	height: auto;
+	float:right;
+	margin-top:auto;
+	margin-bottom:230px;
+}
+.downfont{
+	color: #8D8C8C;
+	font: 12px "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+	height:auto;
+}
+
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, table, ol, ul, form {
+    margin-bottom: 12px;
+}
+h1 {
+    font-size: 22px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-shadow: 1px 1px #FFFFFF;
+}
+h1, h2 {
+    color: #F36858;
+    padding-left: 1px;
+}
+.store {
+    float: left;
+    height: 50px;
+    margin-left: 34px;
+    margin-top: -17px;
+    top: 28px;
+    width: 412px;
+}
+.store li {
+	list-style-type: none;
+	float:left;
+	margin-left: 10px;
+}
+
+#headerDiv, #contentDiv {
+float: right;
+width: 457px;
+}
+#titleText {
+float: left;
+font-size: 1.1em;
+font-weight: bold;
+margin: 5px;
+}
+#myHeader {
+font-size: 14px;
+font-weight: bold;
+margin: 5px;
+text-decoration:none;
+}
+#headerDiv {
+    background-color: #F36858;
+    color: #ffffff;
+    margin-top: -348px;
+	
+}
+
+#contentDiv {
+background-color: #FFE694;
+ margin-top: -315px
+}
+#myContent {
+margin: 5px 10px;
+}
+#headerDiv a {
+float: right;
+margin: 10px 10px 5px 5px;
+}
+#headerDiv a:hover {
+color: #FFFFFF;
+}
+@font-face {
+    font-family: "go_boomregular";
+    font-style: normal;
+    font-weight: normal;
+    src: 
+	url("../fonts/Go-Boom.ttf") format("truetype"),
+	url('../fonts/go-boom-webfont.eot?#iefix') format('embedded-opentype');
+	
+}
+ 

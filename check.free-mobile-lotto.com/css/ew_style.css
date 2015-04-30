@@ -1,0 +1,395 @@
+
+div.ui-content{
+    overflow: visible;
+}
+
+/* header */
+div.ui-header{
+    -webkit-box-shadow: 0px 0px 5px 3px #999999;
+    box-shadow: 0px 0px 5px 3px #999999;
+    border:0;
+}
+div.ui-header h1.ui-title{
+    font-size: 32px;
+    font-weight: bold;
+	margin:20px 0 12px;
+}
+
+div.ui-header a.qooqo_btn_bg{
+    display:none;
+}
+
+a.help_btn{
+    border:0;
+    box-shadow: 0;
+    height: 40px;
+}
+
+a.back_btn{
+    border:0;
+    box-shadow: 0;
+    height: 40px;
+}
+
+.ui-header-fixed .ui-btn.help_btn{
+    right:30px;
+    top:20px;
+	width:36px;
+	height:39px;
+}
+.ui-header-fixed .ui-btn.back_btn{
+	width:20px;
+	height:39px;
+    left:35px;
+    top:20px;
+}
+
+a.help_btn .ui-btn-inner{
+    width: 36px;
+    height: 40px;
+    background-image:url(../img/help.png);
+    background-color:transparent;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    padding:0;
+    border:0;
+}
+
+a.back_btn .ui-btn-inner{
+    width: 20px;
+    height: 40px;
+    background-image:url(../img/back.png);
+    background-color:transparent;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    padding:0;
+    border:0;
+}
+
+a.help_btn .ui-btn-text{
+    display:none;
+}
+
+a.back_btn .ui-btn-text{
+    display:none;
+}
+
+/* lottery page */
+div#c_lotto{
+    text-align: center;
+}
+div.lottery_holder{
+    width: 568px;
+    margin:0 auto;
+}
+
+div.rows{
+    min-width: 568px;
+}
+div#information_row {
+    color: #f4785c;
+    font-size: 20px;
+}
+div#information_row > span {
+    display: none;
+}
+div.lottery_holder .ui-btn{
+    border:0 !important;
+    margin:4px 1px;
+}
+div.lottery_holder .ui-btn-inner{
+    border:0;
+    font-size: 42px;
+    padding:0;
+    padding-top:12px;
+    width: 74px;
+    height: 62px;
+}
+div.lottery_holder .ui-btn-up-a{
+    background:#ffffff;
+    color:#999999;
+}
+div.lottery_holder .ui-btn.active{
+    background:#f4785c;
+    color:#ffffff;
+}
+
+div.lottery_holder div.grey_bg_rows .ui-btn-up-a{
+    background:transparent;
+    color:#f4785c;
+}
+div.lottery_holder div.grey_bg_rows .ui-btn-mandatory{
+    background:#acacac;
+}
+div.lottery_holder div.grey_bg_rows .ui-btn-optional{
+    background:#bdbdbd;
+}
+
+/* loter btns */
+div.lottery_buttons_holder{
+    margin-top:2em;
+    text-align: left;
+}
+div.lottery_buttons_holder a.btn{
+    margin-right:8px !important;
+}
+div.lottery_buttons_holder a.empty .ui-btn-inner{
+    width: 90px;
+    height: 70px;
+    background-image:url(../img/empty.png);
+    background-color:transparent;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    padding:0;
+    border:0;
+}
+div.lottery_buttons_holder a.reload .ui-btn-inner{
+    width: 90px;
+    height: 70px;
+    background-image:url(../img/reload.png);
+    background-color:transparent;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    padding:0;
+    border:0;
+}
+div.lottery_buttons_holder a.pay_btn{
+    background-color:#f4785c;
+    color:#ffffff;
+    text-indent: -9999;
+}
+div.lottery_buttons_holder a.pay_btn .ui-btn-inner{
+    width: 333px;
+    height: 46px;
+    background-image:url(../img/play-with_orange-line.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-color: transparent;
+    padding:0;
+    border:0;
+    text-align: left; 
+    padding:12px 0 12px 22px;
+}
+div.lottery_buttons_holder a.pay_btn .ui-btn-text{
+    display:none;
+}/* loter btns */
+div.lottery_buttons_holder{
+    margin-top:2em;
+    text-align: left;
+}
+div.lottery_buttons_holder a.btn{
+    margin-right:8px !important;
+}
+div.lottery_buttons_holder a.empty .ui-btn-inner{
+    width: 90px;
+    height: 70px;
+    background-image:url(../img/empty.png);
+    background-color:transparent;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    padding:0;
+    border:0;
+}
+div.lottery_buttons_holder a.reload .ui-btn-inner{
+    width: 90px;
+    height: 70px;
+    background-image:url(../img/reload.png);
+    background-color:transparent;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    padding:0;
+    border:0;
+}
+div.lottery_buttons_holder a.pay_btn{
+    background-color:#f4785c;
+    color:#ffffff;
+    text-indent: -9999;
+}
+div.lottery_buttons_holder a.pay_btn .ui-btn-inner{
+    width: 333px;
+    height: 46px;
+    background-image:url(../img/play-with_orange-line.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-color: transparent;
+    padding:0;
+    border:0;
+    text-align: left; 
+    padding:12px 0 12px 22px;
+}
+div.lottery_buttons_holder a.pay_btn .ui-btn-text{
+    display:none;
+}
+div.lottery_holder .qooqo_btn_holder .ui-btn-inner{
+    font-size: 36px;
+}
+div.qooqo_btn_holder{
+    position: relative;
+    float:right;
+}
+
+div.qooqo_btn_holder .qooqo_btn_bg{
+    display:block;
+    position: absolute;
+    z-index:999;
+    right:20px;
+    top:-50px;
+    width: 167px;
+    height: 167px;
+}
+
+.qooqo_btn_bg{
+    display:none;
+}
+
+img.qoqo_btn_img{
+	width:167px;
+}
+
+.qooqo_btn_bg .ui-btn-inner{
+
+}
+.lottery_buttons_holder .btn .ui-btn-text{
+    display:none;
+}
+
+/* information page */
+div#c_information{
+    margin:0 auto;
+    /*width: 568px;*/
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+}
+div#information p{
+    color:#666666;
+}
+
+div.slogan_holder{
+    float:right;
+    width: 295px;
+    height: 30px;
+    margin-bottom:0.5em;
+    margin-right:3em;
+    background-image:url(../img/win_text.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-color: transparent;
+}
+
+
+/* 
+    Mobile Größen
+*/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 120px) 
+and (max-width : 480px) {
+	div.ui-header h1.ui-title{
+        font-size: 24px;
+        font-weight: bold;
+        margin:8px 0 5px;
+    }
+
+    div.lottery_holder{
+         width: 320px !important;
+    }  
+    div.rows{
+        min-width: 320px !important; 
+    }
+    div#information_row {
+        font-size: 14px;
+    }
+    div.lottery_holder .ui-btn-inner{
+        border:0;
+        font-size: 22px;
+        padding:0;
+        padding-top:7px;
+        width: 37px;
+		height: 30px;
+    }
+	.ui-content{
+		padding:15px 0 !important;
+	}
+	
+	.ui-header-fixed .ui-btn.help_btn{
+		top:8px;
+		right:10px;
+        width:20px;
+        height:23px;
+	}
+	.ui-header-fixed .ui-btn.back_btn{
+        top:8px;
+		left:15px;
+        width:13px;
+        height:23px;
+        text-decoration: none;
+	}
+    a.help_btn .ui-btn-inner{
+        text-decoration: none;
+        width: 20px;
+        height: 25px;
+        background-image:url(../img/help_mobile.png);
+    }
+    a.back_btn .ui-btn-inner{
+        width: 13px;
+        height: 25px;
+        background-image:url(../img/back_mobile.png);
+        text-decoration: none;
+    }
+	div.lottery_buttons_holder{
+        margin-top:0.7em;
+    }
+	div.lottery_buttons_holder a.empty .ui-btn-inner{
+		width: 45px;
+		height: 35px;
+		background-image: url(../img/empty_mobile.png);
+	}
+	div.lottery_buttons_holder a.reload .ui-btn-inner{
+		width: 45px;
+		height: 35px;
+		background-image: url(../img/reload_mobile.png);
+	}
+	div.lottery_buttons_holder a.pay_btn .ui-btn-inner{
+        background-image:url(../img/play-with_orange-line_mobile.png);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-color: transparent;
+		width:170px;
+		height:21px;
+		padding:7px 0 7px 10px;
+	}
+	div.lottery_holder .qooqo_btn_holder{
+		position:relative;
+		right:5px;
+	}
+	div.lottery_holder .qooqo_btn_holder .ui-btn-inner{
+		font-size:18px;
+	}
+	img.qoqo_btn_img{
+		width:80px;
+	}
+    div.qooqo_btn_holder a.qooqo_btn_bg{
+		width:80px;
+		height:80px;
+		right:10px;
+		top:-20px;
+	}
+	
+	.lottery_buttons_holder, div.no_bg_rows{
+		margin:0 8px;
+	}
+
+    div.ui-header h1.ui-title img{
+        width:130px;
+    }
+
+    div.slogan_holder{
+        width: 183px;
+        height: 17px;
+        margin-bottom:0.2em;
+        margin-right:1.5em;
+        background-image:url(../img/win_text_mobile.png);
+    }
+
+}
